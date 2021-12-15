@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Honey Soni, a frontend Web Developer specialising in Responsive Websites using HTML5, CSS3, SVG, Creative JavaScript">
+    <meta name="author" content="Honey Soni">
+    <meta name="page-topic" content="Honey Soni, a Junior/Fresher Front-end Web Developer specialising in Responsive Websites using HTML5, CSS3, SVG, Creative JavaScript, Progressive Enhancement">
+    <meta name="topic" content="Honey Soni, a Junior/Fresher Front-end Web Developer specialising in Responsive Websites using HTML5, CSS3, SVG, Creative JavaScript, Progressive Enhancement">
+    <meta property="og:title" content="Honey Soni:A Front-end Web Developer - Indore, India">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Honey Soni, a Junior/Fresher Front-end Web Developer specialising in Responsive Websites using HTML5, CSS3, SVG, Creative JavaScript, Progressive Enhancement">
+    <meta property="og:site_name" content="Front-End Developer, Indore India.">
+    <meta property="og:url" content="">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&family=Open+Sans:wght@400;600;700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Honey Soni | Front-End developer</title>
+</head>
+<body>
+    <div class="main-head">
+      <div class="heading">
+        <h1>Honey Son</h1>
+        <div class="anime">
+            <div class="anime-rect"></div>
+            <div class="anime-ball"></div>
+        </div>
+        <span id="head-tag">| Front-End Web Developer</span>
+      </div>  
+     <ul class="navbar">
+        <a href="#skills"><li class="list-item" id="l-skills">Skills</li></a>
+        <a href="#apps"><li class="list-item" id="l-apps">Apps</li></a>
+        <a href="#education"><li class="list-item" id="l-education">Education</li></a>
+        <a href="#contact"><li class="list-item" id="l-contact">Contact</li></a>
+     </ul>
+     <ul class="mobile-menu" id="dropDown">
+      <a href="#skills"><li class="menu-item" id="l-skills">Skills</li></a>
+      <a href="#apps"><li class="menu-item" id="l-apps">Apps</li></a>
+      <a href="#education"><li class="menu-item" id="l-education">Education</li></a>
+      <a href="#contact"><li class="menu-item" id="l-contact">Contact</li></a>
+     </ul>
+     <ul class="hamburger" id="m-menu">
+       <li  id="top"></li>
+       <li  id="mid"></li>
+       <li  id="bot"></li>
+     </ul>
+    </div>
+    <div class="container">
+    <section class="scroll-container" id="profile">
+      <div class="scroll-element js-scroll fade-in">
+        <img src="img/profile.jpg" alt="profile">
+      </div>
+       
+      <div class="scroll-caption">
+        <p id="l1">A Combination of</p> 
+        <p id="l2">Design Philosophy</p>
+        <p id="l3">Human Aesthetic</p>
+        <p id="l4">And Beautiful UX</p>
+        <p id="l5">is my approach</p>
+      </div>
+    </section>
+    <section class="page"id="page_skills">
+      <h2 class="page-heading" id="skills">Skills</h2>
+      <div class="page-content">
+       <div class="row">
+         <div class="card" onmouseover="moveHtml()">
+           <div class="card-body">
+             <img src="img/html5_logo.png" alt="" class="logo">
+           </div>
+           <div class="card-footer">
+             <p class="card-name">HTML5</p>
+             <div class="skill-level html" id="html_id"></div>
+           </div>
+         </div>
+         <div class="card" onmouseover="moveCss()">
+          <div class="card-body">
+            <img src="img/css_logo.png" alt="" class="logo">
+          </div>
+          <div class="card-footer">
+            <p class="card-name">CSS</p>
+           <div class="skill-level css" id="css_id"></div>
+          </div>
+        </div>
+        <div class="card" onmouseover="moveJs()">
+          <div class="card-body">
+            <img src="img/javascript_logo.png" alt="" class="logo">
+          </div>
+          <div class="card-footer">
+            <p class="card-name">JavaScript</p>
+            <div class="skill-level javascript" id="js_id"></div>
+          </div>
+        </div>
+       </div>
+      </div>
+    </section>
+    <section class="page" id="page_apps">
+      <h2 class="page-heading" id="apps">Apps</h2>
+      <div class="page-content">
+       <div class="row">
+        <div class="flip-box" onclick="flipCard1()">
+          <div class="flip-box-inner"  id="box-1">
+            <div class="flip-box-front">
+              <img src="img/sanskari.jpg" alt="">
+             <h2>Sanskari Babuji App</h2>
+            </div>
+            <div class="flip-box-back">
+              <img src="img/sanskari.jpg" alt="">
+              <h2>Babuji uses his sanskar to filter bad hindi curse words</h2>
+            </div>
+          </div>
+        </div>
+        <div class="flip-box" onclick="flipCard2()">
+          <div class="flip-box-inner"  id="box-2">
+            <div class="flip-box-front">
+              <img src="img/git_front.png" alt="">
+              <h2>Github Finder App</h2>
+            </div>
+            <div class="flip-box-back">
+              <img src="img/git_front.png" alt="">
+              <h2>GitHub User API, Bootstrap Library and Vanilla JavaScript</h2>
+            </div>
+          </div>
+        </div>
+        <div class="flip-box" onclick="flipCard3()">
+          <div class="flip-box-inner"  id="box-3">
+            <div class="flip-box-front">
+              <img src="img/KYW.png" alt="">
+              <h2>Know your Weather</h2>
+            </div>
+            <div class="flip-box-back">
+              <img src="img/KYW.png" alt="">
+              <h2>Openweather API, smooth Animations & JavaScript Async Functions</h2>
+            </div>
+          </div>
+        </div>
+       </div>
+       <div class="row">
+       <a href="https://honeysoniverse.github.io/Sanskari-Babuji-App/" target="_blank"><button class="btn">Go to App</button></a>
+       <a href="https://honeysoniverse.github.io/GitHub-UserSearch-App/" target="_blank"><button class="btn">Go to App</button></a>
+       <a href="https://honeysoniverse.github.io/Know-Your-Weather/" target="_blank"><button class="btn">Go to App</button></a>
+      </div>
+      </div>
+    </section>
+    <section class="page" id="page_education">
+      <h2 class="page-heading" id="education">Education</h2>
+      <div class="page-content">
+        <div class="row-C">
+          <div class="paper" id="school">
+            <h3 class="paper-head">School</h3>
+            <div class="paper-content" id="school">
+              <div class="table-container">
+              <table class="X">
+                <tr>
+                  <thead>
+                    <td>Grade</td>
+                    <td>Institution</td>
+                    <td>Board</td>
+                    <td>City</td>
+                    <td>Year</td>
+                  </thead>
+                </tr>
+                <tr>
+                  <td class="data">X</td>
+                  <td class="data">Christ Sr. Sec. School</td>
+                  <td class="data">C.B.S.E</td>
+                  <td class="data">Guna (M.P.)</td>
+                  <td class="data">2006</td>
+                </tr>
+              </table>
+              <table class="XII">
+                <tr>
+                  <thead>
+                    <td>Grade</td>
+                    <td>Institution</td>
+                    <td>Board</td>
+                    <td>City</td>
+                    <td>Year</td>
+                  </thead>
+                </tr>
+                <tr>
+                  <td class="data">XII</td>
+                  <td class="data">Shivpuri Public School</td>
+                  <td class="data">C.B.S.E</td>
+                  <td class="data">Shivpuri (M.P.)</td>
+                  <td class="data">2008</td>
+                </tr>
+              </table>
+            </div>
+            </div>
+          </div>
+          <div class="paper" id="graduation">
+            <h3 class="paper-head">College</h3>
+            <div class="paper-content" id="college">
+              <div class="table-container">
+                <table class="ISE">
+                  <tr>
+                    <thead>
+                      <td>Institution</td>
+                      <td>Board</td>
+                      <td>Branch</td>
+                      <td>Degree</td>
+                      <td>City</td>
+                      <td>Year</td>
+                    </thead>
+                  </tr>
+                  <tr>
+                    <td class="data">VVCE</td>
+                    <td class="data">V.T.U(Kar)</td>
+                    <td class="data">Information Science & Engg.</td>
+                    <td class="data">B.E.</td>
+                    <td class="data">Mysuru (Kar)</td>
+                    <td class="data"> 2015</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="page" id="page_contact">
+      <h2 class="page-heading" id="contact">Contact</h2>
+      <div class="page-content">
+      <div style="text-align:center">
+        <h3>Good businesses needs better websites. 
+          Better websites needs best developers.</h3>
+      </div>
+      <div class="row">
+        <div class="column">
+          <a href="Honey Soni Web Developer Resume.pdf">><img src="img/resume.png" style="width:50%" id="resume"></a>
+        </div>
+        <div class="column" id="links">
+        
+         <a href="tel:+917838414667"><img src="img/phone.png" alt=""id="phone"></a>
+         
+         <a href="mailto:honeysoniverse@gmail.com"><img src="img/mail.png"alt="" id="mail"></a>
+         <a href="https://github.com/honeysoniverse" target="_blank"><img src="img/github.png"alt="" id="github"></a>
+        </div>
+    </div>
+    </div>
+    
+  </div>
+  </section>
+  </div>
+  
+<script src="app.js"></script>
+</body>
+</html>
