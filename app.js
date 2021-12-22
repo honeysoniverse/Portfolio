@@ -28,10 +28,14 @@ function moveCss(){
         html.style.width = "90%";
         html.innerHTML= "90%"}
 
-        function moveJs(){
+           function moveJs(){
             const html = document.getElementById('js_id');
-            html.style.width = "65%";
-            html.innerHTML= "65%"}
+            html.style.width = "75%";
+            html.innerHTML= "75%"}
+            function moveReact(){
+                const html = document.getElementById('react_id');
+                html.style.width = "70%";
+                html.innerHTML= "70%"}
 
 
 
@@ -46,6 +50,9 @@ function flipCard2(){
     function flipCard3(){
         document.getElementById('box-3').classList.toggle('flip-box-anime')
         }
+function flipCard4(){
+            document.getElementById('box-4').classList.toggle('flip-box-anime')
+            }
 
        
 // var i = 0;
